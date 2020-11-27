@@ -1,0 +1,71 @@
+.p-2{
+    
+padding: 0;
+
+}
+
+div{
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+  
+ 
+}
+header{
+padding: 10px;
+background-color: #50A3E7;
+}
+.sidebar .main{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.sidebar{
+    padding: 200px;
+    background-color: #7E7E7E;
+    float: right;
+    width: 40%;
+
+
+}
+
+main{
+    
+    padding: 200px;
+    background-color: #86AD5C;
+    width: 60%;
+
+}
+footer{
+    padding: 20px;
+    background-color: #50A3E7;
+   
+}
+
+@media only screen and (max-width: 540px) {
+    .sidebar .main{
+        display: flex;
+    }
+
+    .sidebar{
+        padding: 0;
+        background-color: #7E7E7E;
+        float: none;
+        width: 100%;
+    
+    
+    }
+    
+    main{
+        
+        padding: 20%;
+        background-color: #86AD5C;
+        width: 100%;
+        
+    
+    }
+}
